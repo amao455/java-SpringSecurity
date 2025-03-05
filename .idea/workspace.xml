@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab7c52dd-80a6-4625-beae-a518d1b71ae6" name="Changes" comment="" />
+    <list default="true" id="ab7c52dd-80a6-4625-beae-a518d1b71ae6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/domain/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/domain/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/utils/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityQuickStart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityQuickStart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityQuickStart/src/main/java/com/zmkg/securityquickstart/SecurityQuickStartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityQuickStart/src/main/java/com/zmkg/securityquickstart/SecurityQuickStartApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,17 +58,24 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2tqSowLB6wCIVwSfLC2FMw48JVu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TokenDemoApplicationTests.contextLoads.executor": "Run",
+    "JUnit.TokenDemoApplicationTests.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.SecurityQuickStartApplication.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SecurityQuickStartApplication.executor": "Debug",
+    "Spring Boot.TokenDemoApplication.executor": "Debug",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/codes/java-SpringSecurity",
@@ -56,11 +87,45 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.TokenDemoApplication">
+    <configuration name="TokenDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TokenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmkg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zmkg" />
+      <option name="MAIN_CLASS_NAME" value="com.zmkg.TokenDemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TokenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmkg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zmkg" />
+      <option name="MAIN_CLASS_NAME" value="com.zmkg.TokenDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecurityQuickStartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SecurityQuickStart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmkg.securityquickstart.SecurityQuickStartApplication" />
@@ -74,8 +139,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TokenDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TokenDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmkg.TokenDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmkg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TokenDemoApplication" />
+        <item itemvalue="JUnit.TokenDemoApplicationTests" />
+        <item itemvalue="JUnit.TokenDemoApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.SecurityQuickStartApplication" />
       </list>
     </recent_temporary>
@@ -97,11 +178,37 @@
       <option name="presentableId" value="Default" />
       <updated>1733795250754</updated>
       <workItem from="1741078291284" duration="757000" />
-      <workItem from="1741079083308" duration="120000" />
+      <workItem from="1741079083308" duration="1778000" />
+      <workItem from="1741135446389" duration="13948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SecurityQuickStart/src/main/java/com/zmkg/securityquickstart/SecurityQuickStartApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/LoginController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/LoginServiceImpl.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
