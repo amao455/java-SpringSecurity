@@ -6,6 +6,7 @@ import com.zmkg.demos.domain.User;
 import com.zmkg.demos.service.LoginService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -25,6 +26,11 @@ public class LoginController {
         // 登录
         return loginService.login(user);
 
+    }
+
+    @RequestMapping("/user/logout")
+    public ResponseResult logout(){
+        return loginService.logout();
     }
 
 }

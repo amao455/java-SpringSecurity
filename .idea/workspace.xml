@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab7c52dd-80a6-4625-beae-a518d1b71ae6" name="Changes" comment="登录接口的编写">
-      <change afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+    <list default="true" id="ab7c52dd-80a6-4625-beae-a518d1b71ae6" name="Changes" comment="配置认证过滤器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SecurityQuickStartApplication.executor": "Debug",
-    "Spring Boot.TokenDemoApplication.executor": "Debug",
+    "Spring Boot.TokenDemoApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/codes/java-SpringSecurity",
@@ -160,7 +161,7 @@
       <updated>1733795250754</updated>
       <workItem from="1741078291284" duration="757000" />
       <workItem from="1741079083308" duration="1778000" />
-      <workItem from="1741135446389" duration="15834000" />
+      <workItem from="1741135446389" duration="16937000" />
     </task>
     <task id="LOCAL-00001" summary="登录接口的编写">
       <option name="closed" value="true" />
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741163888139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置认证过滤器">
+      <option name="closed" value="true" />
+      <created>1741165968454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165968454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,30 +195,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录接口的编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录接口的编写" />
+    <MESSAGE value="配置认证过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置认证过滤器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/SecurityQuickStart/src/main/java/com/zmkg/securityquickstart/SecurityQuickStartApplication.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/web/LoginController.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/service/impl/LoginServiceImpl.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/filter/JwtAuthenticationTokenFilter.java</url>
           <line>33</line>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TokenDemo/src/main/java/com/zmkg/demos/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
